@@ -18,6 +18,12 @@ if (config.server.frontendUrl) {
   allowedOrigins.add(config.server.frontendUrl);
 }
 
+// Also allow origins provided via CORS_ORIGINS env var (comma-separated)
+if (process.env.CORS_ORIGINS) {
+  const extras = process.env.CORS_ORIGINS.split(',').map(s => s.trim()).filter(Boolean);
+  for (const o of extras) allowedOrigins.add(o);
+}
+
 // ---------------------------------------------------------------------------
 // CORS options
 // ---------------------------------------------------------------------------
