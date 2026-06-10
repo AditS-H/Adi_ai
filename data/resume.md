@@ -1,7 +1,7 @@
 # Adit Sharma
 
-**Email:** adit.sharma@example.com
-**GitHub:** [github.com/aditsharma](https://github.com/aditsharma)
+**Email:** aditss2327@gmail.com
+**GitHub:** [github.com/AditSH](https://github.com/AditS-H)
 **Portfolio:** [aditai.dev](https://aditai.dev)
 **Location:** India
 
